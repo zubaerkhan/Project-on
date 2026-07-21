@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sajid Profile</title>
+    <title>Md Zubaer Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
@@ -11,11 +11,16 @@
   </head>
   <body>
     <main class="profile-card">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
       <section class="intro">
-        <div class="avatar" aria-label="Sajid initials">S</div>
+        <div class="avatar" aria-label="Md Zubaer initials">Z</div>
         <div>
           <p class="eyebrow">PERSONAL PROFILE</p>
-          <h1>Sajid</h1>
+          <h1>Md Zubaer</h1>
           <p class="role">Creative thinker &amp; lifelong learner</p>
         </div>
       </section>
@@ -25,7 +30,7 @@
       <section class="about">
         <h2>About me</h2>
         <p>
-          Hi, I'm Sajid. I enjoy turning ideas into meaningful experiences and discovering something new every day.
+          Hi, I'm Md Zubaer. I enjoy turning ideas into meaningful experiences and discovering something new every day.
         </p>
       </section>
 
@@ -34,7 +39,7 @@
         <div><span>Interests</span><strong>Design / Technology / Music</strong></div>
       </section>
 
-      <button id="connectButton" type="button">Say hello <span>&rarr;</span></button>
+      <a class="button-link" href="contact.html">Say hello <span>&rarr;</span></a>
       <p id="status" class="status" aria-live="polite"></p>
     </main>
     <script src="script.js"></script>
